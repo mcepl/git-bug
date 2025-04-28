@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745818933868,
-  "repoUrl": "https://github.com/git-bug/git-bug",
+  "lastUpdate": 1745835311782,
+  "repoUrl": "https://github.com/mcepl/git-bug",
   "entries": {
     "Benchmark": [
       {
@@ -10370,6 +10370,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkReadBugs150 - allocs/op",
             "value": 522281,
+            "unit": "allocs/op",
+            "extra": "2 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "no-reply@sudoforge.com",
+            "name": "sudoforge",
+            "username": "sudoforge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7b6eb5db5a802828615d044fa0b550d8a576e080",
+          "message": "fix: use correct url for gitlab PATs (#1384)\n\nCloses: #1268\nChange-Id: Ifc029c7058b080b3d9859eaffaa4b9febd2d80b1",
+          "timestamp": "2025-04-27T22:41:06-07:00",
+          "tree_id": "bdf0f2dd4ef5b7a9fa34348f7e7a999078da57fe",
+          "url": "https://github.com/mcepl/git-bug/commit/7b6eb5db5a802828615d044fa0b550d8a576e080"
+        },
+        "date": 1745835311327,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkReadBugs5",
+            "value": 19857065,
+            "unit": "ns/op\t  918280 B/op\t   13892 allocs/op",
+            "extra": "58 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - ns/op",
+            "value": 19857065,
+            "unit": "ns/op",
+            "extra": "58 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - B/op",
+            "value": 918280,
+            "unit": "B/op",
+            "extra": "58 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - allocs/op",
+            "value": 13892,
+            "unit": "allocs/op",
+            "extra": "58 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25",
+            "value": 108626955,
+            "unit": "ns/op\t 5463961 B/op\t   78194 allocs/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - ns/op",
+            "value": 108626955,
+            "unit": "ns/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - B/op",
+            "value": 5463961,
+            "unit": "B/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - allocs/op",
+            "value": 78194,
+            "unit": "allocs/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150",
+            "value": 642478855,
+            "unit": "ns/op\t42799892 B/op\t  522272 allocs/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - ns/op",
+            "value": 642478855,
+            "unit": "ns/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - B/op",
+            "value": 42799892,
+            "unit": "B/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - allocs/op",
+            "value": 522272,
             "unit": "allocs/op",
             "extra": "2 times\n4 procs"
           }
